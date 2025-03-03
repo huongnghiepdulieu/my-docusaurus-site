@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://huongnghiepdulieu.github.io/my-docusaurus-site/blog2</id>
+    <title>Hướng Nghiệp Dữ Liệu Blog</title>
+    <updated>2025-03-03T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog2"/>
+    <subtitle>Hướng Nghiệp Dữ Liệu Blog</subtitle>
+    <icon>https://huongnghiepdulieu.github.io/my-docusaurus-site/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Hướng dẫn GitHub]]></title>
+        <id>https://huongnghiepdulieu.github.io/my-docusaurus-site/blog2/2025/03/03/github-guide</id>
+        <link href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog2/2025/03/03/github-guide"/>
+        <updated>2025-03-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub là một nền tảng quản lý mã nguồn phổ biến giúp lập trình viên cộng tác và làm việc nhóm dễ dàng. Trong bài viết này, chúng ta sẽ tìm hiểu những thao tác cơ bản với GitHub.]]></summary>
+        <content type="html"><![CDATA[<p>GitHub là một nền tảng quản lý mã nguồn phổ biến giúp lập trình viên cộng tác và làm việc nhóm dễ dàng. Trong bài viết này, chúng ta sẽ tìm hiểu những thao tác cơ bản với GitHub.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1️⃣-tạo-tài-khoản-github">1️⃣ Tạo tài khoản GitHub<a href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog2/2025/03/03/github-guide#1%EF%B8%8F%E2%83%A3-t%E1%BA%A1o-t%C3%A0i-kho%E1%BA%A3n-github" class="hash-link" aria-label="Direct link to 1️⃣ Tạo tài khoản GitHub" title="Direct link to 1️⃣ Tạo tài khoản GitHub">​</a></h2>
+<ul>
+<li>Truy cập <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a> và đăng ký tài khoản.</li>
+<li>Xác nhận email để kích hoạt tài khoản.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2️⃣-cài-đặt-git-trên-máy-tính">2️⃣ Cài đặt Git trên máy tính<a href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog2/2025/03/03/github-guide#2%EF%B8%8F%E2%83%A3-c%C3%A0i-%C4%91%E1%BA%B7t-git-tr%C3%AAn-m%C3%A1y-t%C3%ADnh" class="hash-link" aria-label="Direct link to 2️⃣ Cài đặt Git trên máy tính" title="Direct link to 2️⃣ Cài đặt Git trên máy tính">​</a></h2>
+<p>Cài đặt Git để làm việc với GitHub:</p>
+<ul>
+<li><strong>Windows</strong>: Tải từ <a href="https://git-scm.com/downloads" target="_blank" rel="noopener noreferrer">git-scm.com</a>.</li>
+<li><strong>MacOS/Linux</strong>: Cài đặt bằng lệnh:<!-- -->
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt install git  # Ubuntu</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">brew install git      # MacOS</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ul>]]></content>
+        <author>
+            <name>Admin</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+</feed>

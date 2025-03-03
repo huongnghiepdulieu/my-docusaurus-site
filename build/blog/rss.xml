@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Hướng Nghiệp Dữ Liệu Blog</title>
+        <link>https://huongnghiepdulieu.github.io/my-docusaurus-site/blog</link>
+        <description>Hướng Nghiệp Dữ Liệu Blog</description>
+        <lastBuildDate>Mon, 03 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Hướng dẫn sử dụng code]]></title>
+            <link>https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/03/03/huong-dan-su-dung-code</link>
+            <guid>https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/03/03/huong-dan-su-dung-code</guid>
+            <pubDate>Mon, 03 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cách sử dụng code để giao dịch tự động trên Binance và các nền tảng khác]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="giao-dịch-binance-hằng-ngày-day-6---ngày-6-kiểm-tra-số-dư-tài-khoản">Giao dịch Binance hằng ngày: Day 6 - Ngày 6, kiểm tra số dư tài khoản<a href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/03/03/huong-dan-su-dung-code#giao-d%E1%BB%8Bch-binance-h%E1%BA%B1ng-ng%C3%A0y-day-6---ng%C3%A0y-6-ki%E1%BB%83m-tra-s%E1%BB%91-d%C6%B0-t%C3%A0i-kho%E1%BA%A3n" class="hash-link" aria-label="Direct link to Giao dịch Binance hằng ngày: Day 6 - Ngày 6, kiểm tra số dư tài khoản" title="Direct link to Giao dịch Binance hằng ngày: Day 6 - Ngày 6, kiểm tra số dư tài khoản">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bước-1-cài-đặt-thư-viện-binance">Bước 1: Cài đặt thư viện Binance<a href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/03/03/huong-dan-su-dung-code#b%C6%B0%E1%BB%9Bc-1-c%C3%A0i-%C4%91%E1%BA%B7t-th%C6%B0-vi%E1%BB%87n-binance" class="hash-link" aria-label="Direct link to Bước 1: Cài đặt thư viện Binance" title="Direct link to Bước 1: Cài đặt thư viện Binance">​</a></h3>
+<p>Nếu bạn chưa cài đặt thư viện Binance, chạy lệnh sau:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pip install python-binance</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bước-2-kiểm-tra-số-dư-tài-khoản">Bước 2: Kiểm tra số dư tài khoản<a href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/03/03/huong-dan-su-dung-code#b%C6%B0%E1%BB%9Bc-2-ki%E1%BB%83m-tra-s%E1%BB%91-d%C6%B0-t%C3%A0i-kho%E1%BA%A3n" class="hash-link" aria-label="Direct link to Bước 2: Kiểm tra số dư tài khoản" title="Direct link to Bước 2: Kiểm tra số dư tài khoản">​</a></h3>
+<p>Dưới đây là đoạn code kiểm tra số dư tài khoản Binance bằng Python:</p>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">from</span><span class="token plain"> binance</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">client </span><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> Client</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">api_key </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"your_api_key"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">api_secret </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"your_api_secret"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">client </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> Client</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">api_key</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> api_secret</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">account_info </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> client</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">get_account</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">for</span><span class="token plain"> balance </span><span class="token keyword" style="color:#00009f">in</span><span class="token plain"> account_info</span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">'balances'</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">balance</span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">'asset'</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> balance</span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">'free'</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hướng-dẫn-sử-dụng-github-hướng-nghiệp-dữ-liệu">Hướng dẫn sử dụng Github Hướng Nghiệp Dữ Liệu<a href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/03/03/huong-dan-su-dung-code#h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-s%E1%BB%AD-d%E1%BB%A5ng-github-h%C6%B0%E1%BB%9Bng-nghi%E1%BB%87p-d%E1%BB%AF-li%E1%BB%87u" class="hash-link" aria-label="Direct link to Hướng dẫn sử dụng Github Hướng Nghiệp Dữ Liệu" title="Direct link to Hướng dẫn sử dụng Github Hướng Nghiệp Dữ Liệu">​</a></h2>
+<p>Bạn muốn hướng dẫn cách sử dụng GitHub của Hướng Nghiệp Dữ Liệu?
+Hãy truy cập kho lưu trữ tại: <a href="https://github.com/huongnghiepdulieu" target="_blank" rel="noopener noreferrer">GitHub HNDL</a></p>
+<p>Các repository quan trọng:</p>
+<ul>
+<li><code>GiaoDichBinance</code> - Chứa code giao dịch Binance</li>
+<li><code>GiaoDichSSI</code> - Code giao dịch chứng khoán SSI</li>
+<li><code>GiaoDichMT5</code> - Code giao dịch MetaTrader 5</li>
+</ul>
+<p>Để clone một repository, chạy lệnh:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">git clone https://github.com/huongnghiepdulieu/GiaoDichBinance.git</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bài-viết-liên-quan">Bài viết liên quan<a href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/03/03/huong-dan-su-dung-code#b%C3%A0i-vi%E1%BA%BFt-li%C3%AAn-quan" class="hash-link" aria-label="Direct link to Bài viết liên quan" title="Direct link to Bài viết liên quan">​</a></h2>
+<ol>
+<li><a href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/03/03/huong-dan-su-dung-code#">Webinar 23 - AI + Giao dịch định lượng</a></li>
+<li><a href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/03/03/huong-dan-su-dung-code#">Webinar 22 - Chuyển đổi số trong Logistics</a></li>
+<li><a href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/03/03/huong-dan-su-dung-code#">Giao dịch Binance hằng ngày: Day 6</a></li>
+<li><a href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/03/03/huong-dan-su-dung-code#">Hướng dẫn sử dụng Github Hướng Nghiệp Dữ Liệu</a></li>
+</ol>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Giao dịch Binance hàng ngày - Ngày 5]]></title>
+            <link>https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/03/02/trading-binance</link>
+            <guid>https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/03/02/trading-binance</guid>
+            <pubDate>Sun, 02 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hôm nay, chúng ta sẽ tiếp tục với giao dịch Binance hàng ngày. Nội dung chính:]]></description>
+            <content:encoded><![CDATA[<p>Hôm nay, chúng ta sẽ tiếp tục với giao dịch Binance hàng ngày. Nội dung chính:</p>
+<ul>
+<li>Cách kiểm tra số dư tài khoản.</li>
+<li>Chiến lược giao dịch hiệu quả.</li>
+<li>Mẹo tối ưu hóa lợi nhuận.</li>
+</ul>]]></content:encoded>
+            <category>Trading</category>
+            <category>Binance</category>
+            <category>Autotrade</category>
+        </item>
+        <item>
+            <title><![CDATA[Webinar 23 - AI + Giao dịch định lượng]]></title>
+            <link>https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/02/28/ai-trading</link>
+            <guid>https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/02/28/ai-trading</guid>
+            <pubDate>Fri, 28 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Webinar này sẽ hướng dẫn cách sử dụng AI để phân tích dữ liệu giao dịch, bao gồm:]]></description>
+            <content:encoded><![CDATA[<p>Webinar này sẽ hướng dẫn cách sử dụng AI để phân tích dữ liệu giao dịch, bao gồm:</p>
+<ul>
+<li>Cách xây dựng bot AI cho trading.</li>
+<li>Tích hợp dữ liệu thị trường vào hệ thống.</li>
+<li>Chiến lược tối ưu hóa lợi nhuận.</li>
+</ul>]]></content:encoded>
+            <category>AI</category>
+            <category>Trading</category>
+            <category>Webinar</category>
+        </item>
+        <item>
+            <title><![CDATA[Hướng dẫn sử dụng Github cho Trading]]></title>
+            <link>https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/02/25/github-huongdan</link>
+            <guid>https://huongnghiepdulieu.github.io/my-docusaurus-site/blog/2025/02/25/github-huongdan</guid>
+            <pubDate>Tue, 25 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bạn sẽ học cách sử dụng Github để quản lý mã nguồn của bot giao dịch:]]></description>
+            <content:encoded><![CDATA[<p>Bạn sẽ học cách sử dụng Github để quản lý mã nguồn của bot giao dịch:</p>
+<ul>
+<li>Cách tạo và sử dụng repository.</li>
+<li>Cách đồng bộ mã nguồn với GitHub.</li>
+<li>Tích hợp Github Actions để tự động hóa.</li>
+</ul>]]></content:encoded>
+            <category>Github</category>
+            <category>Trading</category>
+            <category>Code</category>
+        </item>
+    </channel>
+</rss>
