@@ -17,7 +17,7 @@ const config = {
   url: 'https://huongnghiepdulieu.github.io', // Thay bằng GitHub username
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/my-docusaurus-site/', // Tên repo chính xác
+  baseUrl: '/', // Tên repo chính xác
   organizationName: 'huongnghiepdulieu', // GitHub username
   projectName: 'my-docusaurus-site', // Tên repository, không phải GitHub Pages
 
