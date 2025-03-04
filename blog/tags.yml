@@ -17,3 +17,13 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+python:
+  label: python
+  permalink: /python
+  description: python tag description
+
+binance:
+  label: binance
+  permalink: /binance
+  description: binance tag description

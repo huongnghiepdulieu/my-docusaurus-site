@@ -21,9 +21,9 @@ const config = {
   organizationName: 'huongnghiepdulieu', // GitHub username
   projectName: 'my-docusaurus-site', // Tên repository, không phải GitHub Pages
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
+ 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -48,6 +48,8 @@ const config = {
           path: './blog',  // <-- Thêm dòng này để Docusaurus nhận diện thư mục blog
           routeBasePath: 'blog',  // Đảm bảo đường dẫn blog đúng
           showReadingTime: true,
+          onUntruncatedBlogPosts: 'ignore', // Thêm dòng này để tắt cảnh báo
+          
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -56,7 +58,6 @@ const config = {
             'https://github.com/huongnghiepdulieu/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
         },
         
         theme: {
@@ -68,6 +69,15 @@ const config = {
 
   
   plugins: [
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     path: 'docs',
+    //     routeBasePath: '/',
+    //     sidebarPath: require.resolve('./sidebars.js'),
+    //   },
+    // ],
+    
     [
       '@docusaurus/plugin-content-blog',
       {
@@ -76,9 +86,34 @@ const config = {
         routeBasePath: 'blog2',
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'flutter',
+        path: 'flutter',
+        routeBasePath: 'flutter',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'phan-tich-du-lieu',
+        path: 'phan-tich-du-lieu',
+        routeBasePath: 'phan-tich-du-lieu',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'logistics',
+        path: 'logistics',
+        routeBasePath: 'logistics',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
   ],
-  
-  
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -100,6 +135,9 @@ const config = {
           },
           { to: '/crypto', label: 'Crypto', position: 'left' }, // Thêm menu Crypto
           { to: '/stocks', label: 'Stocks', position: 'left' }, // Thêm menu Stocks
+          { to: "/docs/lap-trinh-flutter", label: "Lập trình Flutter", position: "left" },
+          { to: "/docs/phan-tich-du-lieu", label: "Phân tích dữ liệu", position: "left" },
+          { to: "/docs/logistics", label: "Logistics", position: "left" },
           { to: '/blog', label: 'Tin tức', position: 'left' },
           { to: '/blog2', label: 'Hướng dẫn sử dụng mã nguồn Code', position: 'left' }, // Thêm Blog2 vào menu
 

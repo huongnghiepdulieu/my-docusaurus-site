@@ -1,8 +1,7 @@
 ---
-title: Mã nguồn MQL4/MQL5
-slug: /category/mql
+id: mql_intro
+title: Giới thiệu MQL
+slug: /mql/intro
 ---
 
-# Mã nguồn MQL4/MQL5
-
-Chào mừng bạn đến với kho mã nguồn MQL4 & MQL5.
+# Giới thiệu MQL trong MQL

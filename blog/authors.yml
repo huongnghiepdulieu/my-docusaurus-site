@@ -8,6 +8,16 @@ yangshun:
     x: yangshunz
     github: yangshun
 
+Admin :
+  name: Admin
+  title: Front End Engineer @ Facebook
+  url: https://github.com/yangshun
+  image_url: https://github.com/yangshun.png
+  page: true
+  socials:
+    x: Admin
+    github: Admin
+
 slorber:
   name: Sébastien Lorber
   title: Docusaurus maintainer

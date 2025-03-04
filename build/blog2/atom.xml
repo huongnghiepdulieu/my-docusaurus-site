@@ -1,35 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://huongnghiepdulieu.github.io/my-docusaurus-site/blog2</id>
+    <id>https://huongnghiepdulieu.github.io/blog2</id>
     <title>Hướng Nghiệp Dữ Liệu Blog</title>
-    <updated>2025-03-03T00:00:00.000Z</updated>
+    <updated>2025-03-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog2"/>
+    <link rel="alternate" href="https://huongnghiepdulieu.github.io/blog2"/>
     <subtitle>Hướng Nghiệp Dữ Liệu Blog</subtitle>
-    <icon>https://huongnghiepdulieu.github.io/my-docusaurus-site/img/favicon.ico</icon>
+    <icon>https://huongnghiepdulieu.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Hướng dẫn GitHub]]></title>
-        <id>https://huongnghiepdulieu.github.io/my-docusaurus-site/blog2/2025/03/03/github-guide</id>
-        <link href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog2/2025/03/03/github-guide"/>
-        <updated>2025-03-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[GitHub là một nền tảng quản lý mã nguồn phổ biến giúp lập trình viên cộng tác và làm việc nhóm dễ dàng. Trong bài viết này, chúng ta sẽ tìm hiểu những thao tác cơ bản với GitHub.]]></summary>
-        <content type="html"><![CDATA[<p>GitHub là một nền tảng quản lý mã nguồn phổ biến giúp lập trình viên cộng tác và làm việc nhóm dễ dàng. Trong bài viết này, chúng ta sẽ tìm hiểu những thao tác cơ bản với GitHub.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1️⃣-tạo-tài-khoản-github">1️⃣ Tạo tài khoản GitHub<a href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog2/2025/03/03/github-guide#1%EF%B8%8F%E2%83%A3-t%E1%BA%A1o-t%C3%A0i-kho%E1%BA%A3n-github" class="hash-link" aria-label="Direct link to 1️⃣ Tạo tài khoản GitHub" title="Direct link to 1️⃣ Tạo tài khoản GitHub">​</a></h2>
-<ul>
-<li>Truy cập <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a> và đăng ký tài khoản.</li>
-<li>Xác nhận email để kích hoạt tài khoản.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2️⃣-cài-đặt-git-trên-máy-tính">2️⃣ Cài đặt Git trên máy tính<a href="https://huongnghiepdulieu.github.io/my-docusaurus-site/blog2/2025/03/03/github-guide#2%EF%B8%8F%E2%83%A3-c%C3%A0i-%C4%91%E1%BA%B7t-git-tr%C3%AAn-m%C3%A1y-t%C3%ADnh" class="hash-link" aria-label="Direct link to 2️⃣ Cài đặt Git trên máy tính" title="Direct link to 2️⃣ Cài đặt Git trên máy tính">​</a></h2>
-<p>Cài đặt Git để làm việc với GitHub:</p>
-<ul>
-<li><strong>Windows</strong>: Tải từ <a href="https://git-scm.com/downloads" target="_blank" rel="noopener noreferrer">git-scm.com</a>.</li>
-<li><strong>MacOS/Linux</strong>: Cài đặt bằng lệnh:<!-- -->
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt install git  # Ubuntu</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">brew install git      # MacOS</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-</li>
-</ul>]]></content>
+        <title type="html"><![CDATA[Hướng Dẫn Sử Dụng Thông Tin Liên Hệ Hướng Nghiệp Dữ Liệu]]></title>
+        <id>https://huongnghiepdulieu.github.io/blog2/Huong-Dan-Su-Dung-Thong-Tin-Lien-He-Huong-Nghiep-Du-Lieu</id>
+        <link href="https://huongnghiepdulieu.github.io/blog2/Huong-Dan-Su-Dung-Thong-Tin-Lien-He-Huong-Nghiep-Du-Lieu"/>
+        <updated>2025-03-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hướng Dẫn Sử Dụng Thông Tin Liên Hệ Hướng Nghiệp Dữ Liệu]]></summary>
+        <content type="html"><![CDATA[<p>Hướng Dẫn Sử Dụng Thông Tin Liên Hệ Hướng Nghiệp Dữ Liệu</p>
+<p>📢 Giới Thiệu</p>
+<p>Hướng Nghiệp Dữ Liệu là nền tảng cung cấp kiến thức, hướng dẫn và hỗ trợ học tập trong các lĩnh vực lập trình, dữ liệu, tự động hóa và giao dịch thuật toán. Để giúp bạn tiếp cận thông tin nhanh chóng, dưới đây là danh sách các kênh liên hệ chính thức.</p>
+<p>📌 Các Kênh Liên Hệ Chính Thức</p>
+<p>📞 Zalo</p>
+<p>Liên hệ qua Zalo: <a href="https://zalo.me/0583587833" target="_blank" rel="noopener noreferrer">https://zalo.me/0583587833</a></p>
+<p>Dùng Zalo để nhắn tin trực tiếp với đội ngũ hỗ trợ.</p>
+<p>📘 Fanpage Facebook</p>
+<p>Theo dõi Fanpage: <a href="https://facebook.com/huongnghiepdulieu" target="_blank" rel="noopener noreferrer">https://facebook.com/huongnghiepdulieu</a></p>
+<p>Nhận thông tin mới nhất về các khóa học, tài liệu và sự kiện.</p>
+<p>🌐 Website Chính Thức</p>
+<p>Website 1: <a href="https://huongnghiepdulieu.com/" target="_blank" rel="noopener noreferrer">https://huongnghiepdulieu.com</a></p>
+<p>Website 2: <a href="https://huongnghieplaptrinh.com/" target="_blank" rel="noopener noreferrer">https://HuongNghiepLapTrinh.com</a></p>
+<p>Cung cấp bài viết chuyên sâu, khóa học và tài liệu học tập miễn phí.</p>
+<p>📧 Email Hỗ Trợ</p>
+<p>Email: <a href="mailto:daotao@huongnghiepdulieu.com" target="_blank" rel="noopener noreferrer">daotao@huongnghiepdulieu.com</a></p>
+<p>Liên hệ hỗ trợ học viên, tư vấn khóa học và hợp tác.</p>
+<p>🎥 Kênh Video Học Tập</p>
+<p>📺 YouTube</p>
+<p>Kênh tổng hợp: <a href="https://www.youtube.com/@HuongNghiepDuLieu" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@HuongNghiepDuLieu</a></p>
+<p>Bot Trading &amp; Tự động hóa: <a href="https://www.youtube.com/@HuongNghiepDuLieuBot" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@HuongNghiepDuLieuBot</a></p>
+<p>Lập trình &amp; Dữ liệu: <a href="https://www.youtube.com/@HuongNghiepDuLieuLapTrinh" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@HuongNghiepDuLieuLapTrinh</a></p>
+<p>Tự động hóa quy trình: <a href="https://www.youtube.com/@HuongNghiepDuLieuTuDongHoa" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@HuongNghiepDuLieuTuDongHoa</a></p>
+<p>Học tiếng Anh nhanh: <a href="https://www.youtube.com/@TiengAnhMoiNgay5Phut" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@TiengAnhMoiNgay5Phut</a></p>
+<p>🎵 TikTok</p>
+<p>Dữ liệu &amp; Lập trình: <a href="https://www.tiktok.com/@HuongNghiepDuLieu" target="_blank" rel="noopener noreferrer">https://www.tiktok.com/@HuongNghiepDuLieu</a></p>
+<p>Python &amp; Trading: <a href="https://www.tiktok.com/@PythonCodingTrading" target="_blank" rel="noopener noreferrer">https://www.tiktok.com/@PythonCodingTrading</a></p>
+<p>Tiếng Anh mỗi ngày: <a href="https://www.tiktok.com/@TiengAnh5PhutHangNgay" target="_blank" rel="noopener noreferrer">https://www.tiktok.com/@TiengAnh5PhutHangNgay</a></p>
+<p>📚 Cộng Đồng Học Tập</p>
+<p>❓ Quora</p>
+<p>Câu hỏi &amp; Trả lời: <a href="https://huongnghiepdulieu.quora.com/" target="_blank" rel="noopener noreferrer">https://HuongNghiepDuLieu.quora.com</a></p>
+<p>Chia sẻ kiến thức: <a href="https://hndata.quora.com/" target="_blank" rel="noopener noreferrer">https://HNData.quora.com</a></p>
+<p>📷 Instagram</p>
+<p>Hình ảnh &amp; nội dung ngắn: <a href="https://www.instagram.com/HuongNghiepDuLieu" target="_blank" rel="noopener noreferrer">https://www.instagram.com/HuongNghiepDuLieu</a></p>
+<p>💼 LinkedIn</p>
+<p>Kết nối chuyên nghiệp: <a href="https://www.linkedin.com/in/HuongNghiepDuLieu" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/HuongNghiepDuLieu</a></p>
+<p>🖥️ GitHub</p>
+<p>Code &amp; Dự án: <a href="https://github.com/HuongNghiepDuLieu" target="_blank" rel="noopener noreferrer">https://github.com/HuongNghiepDuLieu</a></p>]]></content>
         <author>
             <name>Admin</name>
             <uri>https://github.com/yangshun</uri>
         </author>
+        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="python" term="python"/>
+        <category label="binance" term="binance"/>
     </entry>
 </feed>

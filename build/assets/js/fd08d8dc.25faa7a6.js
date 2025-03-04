@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_site=self.webpackChunkmy_site||[]).push([[7878],{2287:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"logistics"}')}}]);

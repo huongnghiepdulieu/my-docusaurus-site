@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_site=self.webpackChunkmy_site||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/my-docusaurus-site/blog","blogTitle":"Blog","authorsListPath":"/my-docusaurus-site/blog/authors"}')}}]);

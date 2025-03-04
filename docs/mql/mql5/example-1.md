@@ -1,4 +1,5 @@
 ---
+id: example-1
 title: Expert Advisor cơ bản
 ---
 

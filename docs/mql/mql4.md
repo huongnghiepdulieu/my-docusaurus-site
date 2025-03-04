@@ -1,4 +1,5 @@
 ---
+id: mql4
 title: Code MQL4
 ---
 
